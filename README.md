@@ -1,4 +1,4 @@
-# IoDNS
+# Intelligence-Over-DNS (IoDNS)
 ### Agent-discoverable metadata published over DNS
 
 IoDNS (Intelligence over DNS) is a framework for publishing structured,
