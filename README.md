@@ -20,6 +20,8 @@ allowing applications, agents, and services to discover identity,
 capabilities, and payment mechanisms directly from the global DNS
 namespace.
 
+![IoDNS Architecture](docs/iodns-architecture.png)
+
 ---
 
 ## Background
