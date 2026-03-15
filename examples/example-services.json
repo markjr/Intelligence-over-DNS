@@ -1,0 +1,27 @@
+{
+  "iod_version": "1.0",
+  "zone": "example.com",
+  "services": {
+    "api_endpoints": [
+      {
+        "protocol": "https",
+        "url": "https://api.example.com/v1/"
+      },
+      {
+        "protocol": "wss",
+        "url": "wss://stream.example.com"
+      }
+    ],
+    "mcp_servers": [
+      {
+        "role": "primary",
+        "url": "https://mcp1.example.com"
+      },
+      {
+        "role": "secondary",
+        "url": "https://mcp2.example.com"
+      }
+    ]
+  },
+  "last_updated": "2026-03-15T18:30:00Z"
+}

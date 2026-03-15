@@ -1,0 +1,24 @@
+$ORIGIN example.com.
+@       300 IN SOA ns1.example.com. hostmaster.example.com. (
+            2026031501 ; serial
+            3600       ; refresh
+            1800       ; retry
+            1209600    ; expire
+            3600 )     ; minimum
+
+        300 IN DNSKEY 257 3 13 <...DNSSEC KEY DATA...>
+        300 IN RRSIG  DNSKEY <...>
+
+_iod            300 IN TXT "v=1; idx=_iod.index; alg=jcs+jws; enc=zstd+b64url; dnssec=required"
+
+_iod.index      300 IN TXT "id=services;type=services;hash=abc123...;ts=2026-03-15T18:30:00Z;ttl=3600"
+_iod.index      300 IN TXT "id=blockchain;type=blockchain;hash=def456...;ts=2026-03-15T18:30:00Z;ttl=86400"
+_iod.index      300 IN TXT "id=payments;type=payments;hash=ghi789...;ts=2026-03-15T18:30:00Z;ttl=3600"
+
+_iod.doc.services     300 IN TXT "seq=1/1;csum=abcd1234;part=<base64url-zstd-json>"
+_iod.doc.blockchain   300 IN TXT "seq=1/2;csum=1122aabb;part=<chunk1>"
+_iod.doc.blockchain   300 IN TXT "seq=2/2;csum=3344ccdd;part=<chunk2>"
+_iod.doc.payments     300 IN TXT "seq=1/2;csum=77889900;part=<chunk1>"
+_iod.doc.payments     300 IN TXT "seq=2/2;csum=aabbccdd;part=<chunk2>"
+
+_x402.api       300 IN TXT "v=x4021;descriptor=api;url=https://api.example.com/.well-known/x402"

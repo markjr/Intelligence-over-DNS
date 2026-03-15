@@ -1,0 +1,50 @@
+{
+  "iod_version": "1.0",
+  "zone": "example.com",
+  "blockchain": {
+    "assets": [
+      {
+        "id": "btc-main",
+        "chain": "bitcoin",
+        "type": "p2wpkh",
+        "address": "bc1qw508d6qejxtdg4y5r3zarvary0c5xw7kygt080",
+        "capabilities": [
+          "receive",
+          "verify"
+        ],
+        "proof_url": "https://example.com/proofs/btc.json"
+      },
+      {
+        "id": "eth-main",
+        "chain": "ethereum",
+        "type": "eoa",
+        "address": "0x1234567890abcdef1234567890abcdef12345678",
+        "capabilities": [
+          "receive",
+          "sign"
+        ]
+      },
+      {
+        "id": "ens-primary",
+        "chain": "ens",
+        "type": "name",
+        "address": "example.eth",
+        "capabilities": [
+          "resolve",
+          "verify"
+        ]
+      },
+      {
+        "id": "stacks-primary",
+        "chain": "stacks",
+        "type": "name",
+        "address": "example.btc",
+        "capabilities": [
+          "resolve",
+          "verify"
+        ]
+      }
+    ]
+  },
+  "last_updated": "2026-03-15T18:30:00Z"
+}

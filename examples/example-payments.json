@@ -1,0 +1,38 @@
+{
+  "iod_version": "1.0",
+  "zone": "example.com",
+  "payments": {
+    "methods": [
+      {
+        "id": "x402-main",
+        "protocol": "x402",
+        "discovery": "_x402.example.com",
+        "endpoint": "https://pay.example.com/.well-known/x402",
+        "methods": [
+          "lightning",
+          "bitcoin"
+        ],
+        "settlement_assets": [
+          "btc-main",
+          "ens-primary"
+        ]
+      },
+      {
+        "id": "l402-api",
+        "protocol": "l402",
+        "auth_endpoint": "https://api.example.com/l402",
+        "issuer": "example.com",
+        "token_type": "macaroon",
+        "settlement_assets": [
+          "btc-main"
+        ]
+      },
+      {
+        "id": "lightning-address",
+        "protocol": "lightning",
+        "lightning_address": "pay@example.com"
+      }
+    ]
+  },
+  "last_updated": "2026-03-15T18:30:00Z"
+}
