@@ -180,19 +180,6 @@ subsume it if the wider model proves useful in practice.
 
 ---
 
-## Not to be confused with
-
-Security vendors have used the phrase "Intelligence over DNS" to
-describe threat-intelligence feeds distributed through DNS lookups.
-
-IoDNS is unrelated to those systems.
-
-Those products use DNS as a transport channel for security data.
-IoDNS instead defines a structured framework for publishing metadata
-inside DNS itself.
-
----
-
 ## Repository Structure
 
 ```text
