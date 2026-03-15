@@ -124,18 +124,27 @@ Optional object-level signatures MAY be used for detached verification.
 
 ### 8.1. Normative References
 
-- RFC 4033, "DNS Security Introduction and Requirements"
-- RFC 6763, "DNS-Based Service Discovery"
-- RFC 8785, "JSON Canonicalization Scheme (JCS)"
+- [RFC 4033 — DNS Security Introduction and Requirements](https://datatracker.ietf.org/doc/html/rfc4033)
+
+- [RFC 6763 — DNS-Based Service Discovery](https://datatracker.ietf.org/doc/html/rfc6763)
+
+- [RFC 8785 — JSON Canonicalization Scheme (JCS)](https://datatracker.ietf.org/doc/html/rfc8785)
+
 
 ### 8.2. Informative References
 
-- Jeftovic, M., "Simplifying Bitcoin Addresses with DNS", Bitcoin Magazine,
-  May 7, 2024
-- Jeftovic, M., "x402 DNS Discovery", GitHub repository:
-  `markjr/x402-dns-discovery`
-- Lightning Labs, "L402", GitHub repository:
-  `lightninglabs/L402`
+- Jeftovic, M.,  
+  [Simplifying Bitcoin Addresses with DNS](https://bitcoinmagazine.com/technical/simplifying-bitcoin-addresses-dns),  
+  *Bitcoin Magazine*, May 7, 2024.
+
+- Jeftovic, M.,  
+  [x402 DNS Discovery — Internet-Draft](https://datatracker.ietf.org/doc/draft-jeftovic-x402-dns-discovery/),  
+  and project repository:  
+  https://github.com/markjr/x402-dns-discovery
+
+- Lightning Labs,  
+  **L402: Payment-based Authentication**,  
+  https://github.com/lightninglabs/L402
 
 ---
 
