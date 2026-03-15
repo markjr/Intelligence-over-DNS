@@ -231,7 +231,16 @@ Current working draft:
 
 ## References
 
-- Jeftovic, M., "Simplifying Bitcoin Addresses with DNS", Bitcoin Magazine,
-  May 7, 2024
-- markjr/x402-dns-discovery
-- lightninglabs/L402
+- Jeftovic, M.,  
+  [Simplifying Bitcoin Addresses with DNS](https://bitcoinmagazine.com/technical/simplifying-bitcoin-addresses-dns),  
+  *Bitcoin Magazine*, May 7, 2024.
+
+- Jeftovic, M.,  
+  [x402 DNS Discovery — Internet-Draft](https://datatracker.ietf.org/doc/draft-jeftovic-x402-dns-discovery/),  
+  and project repository:  
+  https://github.com/markjr/x402-dns-discovery
+
+- Lightning Labs,  
+  **L402: Payment-based Authentication**,  
+  https://github.com/lightninglabs/L402
+  
