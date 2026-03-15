@@ -28,7 +28,7 @@ DNS was originally designed to map human-readable names to network
 addresses. Over time, it has increasingly been used to publish additional
 metadata.
 
-Back in 2018, I wrote in my book:
+Back in 2018, I wrote in opening to my book Managing Mission Critical Domains & DNS:
 
 > "There is also another aspect of the DNS, which has emerged relatively
 > recently, that takes it beyond a protocol simply for mapping names to
