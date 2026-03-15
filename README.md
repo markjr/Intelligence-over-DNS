@@ -213,6 +213,20 @@ The goal of this repository is to document the design, gather feedback,
 and develop reference implementations. Future work may include formal
 standardization through the IETF or related processes.
 
+## Draft Specification
+
+An Internet-Draft version of the IoDNS specification is included in this
+repository under `drafts/`.
+
+This draft is provided to encourage technical discussion and
+collaboration prior to any formal standards submission.
+
+If the design matures and there is sufficient interest from the
+community, the intent is to submit IoDNS to the IETF as an Internet-Draft.
+
+Current working draft:
+`drafts/draft-jeftovic-iodns-00.md`
+
 ---
 
 ## References
